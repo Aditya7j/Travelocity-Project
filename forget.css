@@ -1,0 +1,119 @@
+#c1{
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid rgb(187, 187, 187);
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+}
+#c1>div{
+    border: 1px solid transparent;
+}
+#c1>div:nth-child(1){
+    margin-top: 20px;
+    width: 5%;
+    height: 90%;
+
+}
+#c1>div:nth-child(2){
+    width: 15%;
+    height: 90%;
+    margin-left: 570px;
+}
+#sign{
+    height: 650px;
+    /*border: 1px solid red;*/
+    margin: 10px;
+}
+#sign>div{
+    width: 35%;
+    height: 95%;
+   /*border: 1px solid blue;*/
+    margin: auto;
+}
+#sign>div>h1{
+    color: #242c33;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.a1{
+    margin: 5px;
+    width: 350px;
+    padding: 17px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+}
+
+span{
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 3;
+}
+.a2{
+   
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    line-height: 1.5;
+}
+#arr{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 2em;
+    color: blue;
+}
+#arr:hover{
+    text-decoration: none;
+}
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#btn{
+    width: 400px;
+    margin: 5;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    
+    background-color:#6babf8;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.a3{
+    margin-left: 150px;
+   
+}
+.a4{
+    margin-left: 110px;
+    color: grey;
+}
+.a5{
+    margin-left: 150px;
+    line-height: 3;
+    color: grey;
+}
+.a6{
+    width: 10%;
+    height: 10%;
+    /*border: 1px solid blue;*/
+    display: inline-flex;
+    vertical-align: top;
+    margin-left: 170px;
+}
+.a7{
+    width: 10%;
+    height: 10%;
+    /*border: 1px solid blue;*/
+    display: inline-flex;
+    
+}

@@ -1,0 +1,513 @@
+
+/*NAVBAR*/
+
+body{
+    background-color: rgb(212, 212, 212);
+    margin: auto;
+}
+
+#c1{
+    height: 70px;
+    width: 100%;
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80px;
+    background-color: #0A438B;
+    
+}
+#c1>div{
+   /* border: 1px solid blue;*/
+    margin-left: 100px;
+    background-color: #0A438B;
+    margin-bottom: 10px;
+   
+}
+div>select{
+    padding: 29px;
+    width: 200px;
+    vertical-align: top;
+    color: white;
+    font-size: 15px;
+    background-color: #0A438B;
+    border: 0;
+    background: none;
+    text-decoration: none;
+
+}
+
+div>select>option{
+    font-size: 20px;
+    background-color: rgb(98, 167, 7);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+   
+}
+#c2{
+    vertical-align: middle;
+    margin-top: 26px;
+    text-align: center;
+   
+
+    
+}
+
+#c2>span>a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    
+}
+#c2>span>a:hover{
+    color: rgb(197, 215, 248);
+    cursor: pointer;
+}
+
+#cont{
+    width: 70%;
+    height: 150px;
+    /*border: 1px solid red;*/
+    margin: 10px;
+    margin-left: 120px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+    border-radius: 10px;
+}
+#cont>div{
+   /* border: 1px solid red;*/
+   width: 100%;
+    height: 80px;
+ 
+    border-radius: 10px;
+    background-color: #888585;
+
+    
+   
+   
+}
+#cont>div>p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 2;
+
+}
+#cont>div>a{
+    color: white;
+    font-size: 15px;
+    margin:10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#cont>a{
+    font-size: 15px;
+    margin:15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#mid{
+    display: grid;
+    grid-template-columns: 30% 46%;
+    grid-template-rows: 300px;
+    grid-gap: 5px;
+    margin-left: 120px;
+
+}
+#mid>div{
+    /*border: 1px solid red;*/
+    border: 0;
+}
+#imghh{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 148px 148px;
+    grid-gap: 5px;
+
+}
+#imghh>div{
+    /*\border: 1px solid blue;*/
+    border: 0;
+}
+#line{
+    display: grid;
+    width: 71%;
+    height: 37px;
+    margin-top: 2px;
+    margin-bottom: 1.5px;
+    margin-left: 120px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,50%);
+    border-bottom: 1px solid gray;
+    grid-template-rows: 80px;
+
+}
+#line>div{
+    /*border: 1px solid red;*/
+    margin: 5px;
+    
+   
+}
+#line>div>a{
+    font-size: 17px;
+    margin: 5px;
+    text-decoration: none;
+    
+    color: gray;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  
+
+}
+#line>div>a:hover{
+    text-decoration: underline;
+    color: cadetblue;
+}
+#reserve{
+    width: 170px;
+    margin-left: 310px;
+    padding: 6px;
+    margin-bottom: 1;
+    background-color: #0A438B;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+#room{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: 1000px 1000px;
+    grid-gap: 10px;
+    margin-left: 120px;
+   
+
+}
+#room>div{
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+}
+
+
+.comf{
+    height: 50%
+}
+.comf>span{
+    color: gray;
+    font-size: 1rem;
+    font-weight:500;
+    line-height: 1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.comf>p{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    color: #242c33;
+
+}
+.room1>p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    color: #242c33;
+}
+.comf>a{
+    color: rgb(6, 74, 77);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    text-decoration: none;
+
+}
+.comf>a:hover{
+    text-decoration: underline;
+}
+#room2{
+    height: 90%;
+    /*border:1px solid blue;*/
+    border-top: 1px solid gray;
+    margin: 5px;
+
+}
+#room2>p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    color: #242c33;
+}
+#room2>input[type="radio"]{
+    width: 20px;
+    height: 1.5rem;
+    border: 0;
+}
+#room2>input{
+    width: 80px;
+    padding: 7px;
+    border-radius: 30px;
+    background: linear-gradient(to top,#709C02 0,#90C900 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.rt{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    color: #242c33;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-decoration: line-through;
+}
+.rq{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 5px;
+    color: #242c33;
+    font-size: 0.7rem;
+    line-height: 1;
+
+}
+#room2>a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 20px;
+    margin: 5px;
+    
+
+}
+#room2>a:hover{
+    text-decoration: underline;
+}
+#resbtn{
+    width: 120px;
+    padding: 10px;
+    color:#ffff;
+    background-color:#0A438B ;
+    border-radius: 10px;
+    margin-left: 210px;
+    
+}
+#wander{
+    display: grid;
+    grid-template-columns: 25% 45% 20%;
+    grid-template-rows: 400px;
+    justify-content: center;
+    margin:10px;
+    border: 1px solid rgb(231, 231, 231);
+    
+    
+    
+}
+#wander>div{
+    /*border: 1px solid red;*/
+    background-color: white;
+    border-radius: 5px;
+   /* border: 1px solid red;*/
+
+}
+#wander>div>h1{
+    font-size: 2rem;
+    margin: 5px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#wander>div>ul>li{
+    color: gray;
+    font-size: 1rem;
+    margin: 5px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#wander>div>h3{
+    font-size: 1.5rem;
+    margin: 5px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#imga{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.po{
+    
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+#down{
+    width: 180px;
+    padding: 15px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+input{
+    width: 150px;
+    padding: 15px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+#btn2{
+    width: 180px;
+    padding: 16px;
+    color: white;
+    background-color:#0A438B ;
+    border-radius: 5px;
+    border:0;
+    text-decoration: transparent;
+}
+#wander>div>p{
+    color: grey;
+    font-size: 17px;
+    margin: 5px;
+    line-height: 25px;
+    
+
+}
+#desc{
+    height: 300px;
+    /*border: 1px solid black;*/
+
+}
+.next{
+    width: 650px;
+    padding: 15px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 80px;
+    text-decoration: none;
+    border: 0;
+    font-size: 20px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+}
+#next{
+    width: 92.5%;
+    padding: 15px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 80px;
+    text-decoration: none;
+    border: 0;
+    font-size: 20px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(5,17%);
+    grid-template-rows: 420px;
+   /* grid-gap: 10px;*/
+    justify-content: center;
+    vertical-align: top;
+}
+#footer>div{
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+#footer>div:nth-child(1){
+   margin-top: 10px;
+   font-size: 1.3rem;
+
+}
+#footer>div:nth-child(2)>p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#footer>div:nth-child(2)>a{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 25px;
+    
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    color: #2b74ce;
+
+
+}
+#footer>div:nth-child(3)>p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#footer>div:nth-child(3)>a{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 25px;
+    
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    color: #2b74ce;
+
+
+}
+#footer>div:nth-child(4)>p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#footer>div:nth-child(4)>a{
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    color: #2b74ce;
+
+
+}
+#footer>div:nth-child(5)>p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+#footer>div:nth-child(5)>a{
+    font-size: 0.8rem;
+    font-weight: bold;
+   
+    margin: 25px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-decoration: none;
+    color: #2b74ce;
+
+
+}
+
+#end{
+    height: 200px;
+    /*border:1px solid black;*/
+    color: grey;
+    text-align: center;
+}
+
+#footer>div>a:hover{
+    text-decoration: underline;
+}

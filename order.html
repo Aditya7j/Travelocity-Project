@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        #c1{
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid rgb(187, 187, 187);
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+}
+#c1>div{
+    border: 1px solid transparent;
+}
+#c1>div:nth-child(1){
+    margin-top: 20px;
+    width: 5%;
+    height: 90%;
+
+}
+#c1>div:nth-child(2){
+    width: 15%;
+    height: 90%;
+    margin-left: 570px;
+}
+#c1>div>a{
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(19, 153, 158);
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+h1{
+    color: rgb(36, 192, 5);
+    text-align: center;
+    font-size: 3em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bolder;
+
+}
+h2{
+    color: rgb(5, 192, 183);
+    text-align: center;
+    font-size: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bolder;
+
+}
+#btn{
+    color: rgb(192, 11, 5);
+    margin-left: 650px;
+    background: linear-gradient(to top,#709C02 0,#90C900 100%);
+    font-size: 2em;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+.img{
+    margin-left: 700px;
+}
+    </style>
+</head>
+<body>
+    <div id="c1">
+        <div>
+            <a id="arr" href="home.html">←</a>
+        </div>
+        <div>
+            <img width="90%"height="70%"
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR91P9HvPcXYjAeAGDiuiQYQw_tOrkw6oak8KGs56L-H6NkyIVxbrJJ3O60pMn-AG1Uzg&usqp=CAU"/>
+        </div>
+    </div>
+    <div class="home">
+        <h1>Your Room is booked</h1>
+    <h2>Thank You ! For choosing Travelocity</h2>
+   <img class="img" width="10%" height="10%"
+   src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/93668/1309168682.png"/>
+           <button id="btn">Home</button><br><br>
+    </div>
+    
+                
+</body>
+</html>
+<script>
+    var btn =document.getElementById("btn").addEventListener("click",function(){
+        window.location.href = "home.html"
+    })
+</script>
